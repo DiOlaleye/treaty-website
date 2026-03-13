@@ -50,3 +50,7 @@ body {
   margin: auto;
   border: black solid 1px;
 }
+
+h2 {
+  text-align: center;
+}
