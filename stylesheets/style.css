@@ -54,3 +54,10 @@ body {
 h2 {
   text-align: center;
 }
+.info-block {
+  border: 2px solid black;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff9cc;
+  border-radius: 8px;
+}
