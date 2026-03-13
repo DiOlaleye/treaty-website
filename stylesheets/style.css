@@ -1,0 +1,52 @@
+/** This selects all the a (anchor) tags in the document and applies the following styles to them: */
+a {
+  /** This sets the text color of the anchor tags to white */
+  color: white;
+  /** This removes any text decoration (such as underlines) from the anchor tags */
+  text-decoration: none;
+  padding: 20px;
+}
+/** This selects the nav element and applies the following styles to it: */
+nav ul {
+  /** This sets the background color for my website */
+  background: #333;
+  /** This aligns all text to the left of the webpage */
+  text-align: center;
+  /** This adds padding all around the elements in a navigation bar */
+  padding: 10px;
+}
+
+nav a:hover {
+  /** This changes the background color of the navigation links when the user hovers over them */
+  background-color: lightgray;
+}
+
+nav li {
+  /** This displays the list items horizontally */
+  display: inline;
+  /** This aligns the text to the center of the webpage */
+  text-align: center;
+}
+
+body {
+  background-color: rgb(166, 234, 166);
+}
+
+.treaty-five-map {
+  /** This centers the image of the treaty five map and adds a black border around it, which allows me to center it */
+  display: block;
+  /** This automatically sets left and right margins to center the image horizontally */
+  margin: auto;
+  /** This adds a 1-pixel solid black border around the image. */
+  border: black solid 1px;
+}
+
+#title {
+  text-align: center;
+}
+
+.treaty-five-territory {
+  display: block;
+  margin: auto;
+  border: black solid 1px;
+}
