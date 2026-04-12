@@ -1,15 +1,15 @@
 /** This selects all the a (anchor) tags in the document and applies the following styles to them: */
-a {
+nav a {
   /** This sets the text color of the anchor tags to white */
   color: white;
   /** This removes any text decoration (such as underlines) from the anchor tags */
   text-decoration: none;
-  padding: 20px;
+  padding: 10px 15px;
+  display: inline-block;
 }
 /** This selects the nav element and applies the following styles to it: */
 nav ul {
   /** This sets the background color for my website */
-  background: #333;
   /** This aligns all text to the left of the webpage */
   text-align: center;
   /** This adds padding all around the elements in a navigation bar */
@@ -18,7 +18,10 @@ nav ul {
 
 nav a:hover {
   /** This changes the background color of the navigation links when the user hovers over them */
-  background-color: lightgray;
+  background-color: #e8d8b7;
+  /** This changes the text color of the navigation links when the user hovers over them */
+  color: #1a1a1a;
+  border-radius: 5px;
 }
 
 nav li {
@@ -26,38 +29,50 @@ nav li {
   display: inline;
   /** This aligns the text to the center of the webpage */
   text-align: center;
+  color: black;
 }
+
+/** The font family for the entire webpage is set to Arial, Helvetica, sans-serif, 
+which means that if Arial is not available, it will fall back to Helvetica, 
+and if that is also not available, it will use any available sans-serif font. 
+The background color of the webpage is set to a light green shade (#93e9be). */
 
 body {
-  background-color: rgb(166, 234, 166);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #8fcbb9;
+  font-size: 1.7rem;
 }
 
-.treaty-five-map {
-  /** This centers the image of the treaty five map and adds a black border around it, which allows me to center it */
-  display: block;
-  /** This automatically sets left and right margins to center the image horizontally */
-  margin: auto;
-  /** This adds a 1-pixel solid black border around the image. */
-  border: black solid 1px;
+h2 {
+  text-align: center;
+}
+
+.info-block {
+  border-radius: 25px;
+  border: 0.25px solid black;
+  padding: 40px 20px;
+  margin-bottom: 30px;
+  background-color: #e8d8b7;
+  border-radius: 8px;
+  color: #1a1a1a;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background-color: #4a7c8c;
+  padding: 10px;
+  text-align: center;
 }
 
 #title {
   text-align: center;
 }
 
-.treaty-five-territory {
-  display: block;
-  margin: auto;
-  border: black solid 1px;
-}
-
-h2 {
-  text-align: center;
-}
-.info-block {
-  border: 2px solid black;
-  padding: 20px;
-  margin: 20px;
-  background-color: #fff9cc;
-  border-radius: 8px;
-}
+/* I chose the Blue-Green color family because I feel like it fits the theme of my website really well. 
+Treaty 5 is about forests and natural resources, so choosing this color palette enhanced the purpose of my website */

@@ -1,8 +1,10 @@
-<!--Name:  Dipo
-    Course: PTEC
-    Teacher: Mr. Scott Hardman
-    School: Pembina Trails Collegiate
-    Date Last Modified: March 12th, 2026-->
+<!--
+  Name:  Dipo
+  Course: PTEC
+  Teacher: Mr. Scott Hardman
+  School: Pembina Trails Collegiate
+  Date Last Modified: April 10th, 2026
+-->
 
 <!doctype html>
 <html lang="en">
@@ -11,38 +13,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treaty 5 Information</title>
     <link rel="stylesheet" href="stylesheets/style.css" />
+
+    <style>
+      #treaty-five-territory {
+        display: block;
+        margin: auto;
+        border: black solid 1px;
+      }
+
+      #treaty-five-map {
+        /** This centers the image of the treaty five map and adds a black border around it, which allows me to center it */
+        display: block;
+        /** This automatically sets left and right margins to center the image horizontally */
+        margin: auto;
+        /** This adds a 1-pixel solid black border around the image. */
+        border: black solid 1px;
+      }
+    </style>
   </head>
   <body>
     <!-- Header & Navigation -->
     <header>
-      <div class="navbar">
-        <nav>
-          <ul>
-            <li><a href="index.html">Basic Info</a></li>
-            <li><a href="negotiations.html">Negotiations</a></li>
-          </ul>
-        </nav>
-      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Basic Info</a></li>
+          <li><a href="history.html">History</a></li>
+        </ul>
+      </nav>
+      <h1 id="title" class="info-block">Basic Info</h1>
     </header>
 
     <!-- Main Content -->
     <main>
-      <h1 id="title">Basic Info</h1>
-
       <!-- This will be the start of my content -->
-      <div class="info-block">
+      <section class="info-block">
         <img
-          class="treaty-five-map"
+          id="treaty-five-map"
           src="images/treaty five map.jpg"
-          alt="Treaty 5 Signing Flag" />
+          alt="The flag of treaty 5" />
         <p>
           In this website, you will find information on
-          <span class="highlight">Treaty 5</span>.
+          <span class="highlight">Treaty 5</span>
         </p>
-      </div>
+      </section>
 
       <!-- The div tag groups related elements together, such as paragraphs under the same topic.-->
-      <div class="info-block">
+      <section class="info-block">
         <h2>What and Where is Treaty 5?</h2>
         <p>
           <span>Treaty 5</span> is one of the numbered treaty agreements signed
@@ -54,9 +70,9 @@
           <span class="highlight">Manitoba</span> and parts of
           <span class="highlight">Ontario</span>.
         </p>
-      </div>
+      </section>
 
-      <div class="info-block">
+      <section class="info-block">
         <h2>Where and When was Treaty 5 Signed?</h2>
         <p>
           The first negotiations for Treaty 5 took place in 1875 at
@@ -70,9 +86,9 @@
           sharing and what the First Nations would receive. The treaty was later
           expanded between 1908 and 1910 to include more communities.
         </p>
-      </div>
+      </section>
 
-      <div class="info-block">
+      <section class="info-block">
         <h2>Historic Terms of the Deal</h2>
         <p>
           The Indigenous people involved in Treaty 5 received the following:
@@ -82,9 +98,8 @@
           <li>$5 per person each year</li>
           <li>160 acres for a family of five</li>
         </ul>
-      </div>
-
-      <div class="info-block">
+      </section>
+      <section class="info-block">
         <h2>Territory</h2>
         <p>
           Treaty 5 covers a large area of northern Manitoba and a small part of
@@ -93,13 +108,13 @@
           fishing, and transportation.
         </p>
         <img
-          class="treaty-five-territory"
+          id="treaty-five-territory"
           src="images/Treaty Map.webp"
           height="350"
           alt="Map of Treaty 5 Territory" />
-      </div>
+      </section>
 
-      <div class="info-block">
+      <section class="info-block">
         <h2>Who Was Involved?</h2>
         <p>Involved parties include the following First Nations:</p>
         <ul>
@@ -109,11 +124,11 @@
           <li>Cross Lake Band</li>
           <li>Fisher River Cree Nation</li>
           <li>Garden Hill & St. Therese Point First Nations</li>
-          <li>Hollow Water & Mosakahiken Crees</li>
+          <li>Hollow Water & Mosakahiken Creek</li>
           <li>Little Grand Rapids First Nation</li>
           <li>Norway House Cree Nation</li>
         </ul>
-      </div>
+      </section>
     </main>
   </body>
 </html>
