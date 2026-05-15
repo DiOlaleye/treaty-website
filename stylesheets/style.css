@@ -6,6 +6,7 @@ nav a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
+  transition: color 0.3s;
 }
 /** This selects the nav element and applies the following styles to it: */
 nav ul {
@@ -40,9 +41,9 @@ The background color of the webpage is set to a light green shade (#93e9be). */
 body {
   /* This sets the font family for the entire webpage to Arial, Helvetica, sans-serif */
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #8fcbb9;
-  /*This sets the font size for the entire webpage to 1.7rem, which is equivalent to 17px (1.7 times the root font size) */
-  font-size: 1.7rem;
+  background: linear-gradient(90deg, #5da92f, #9bd46a);
+  /*This sets the font size for the entire webpage to 1.8rem, which is equivalent to 18px (1.8 times the root font size) */
+  font-size: 1.8rem;
 }
 
 h2 {
@@ -82,6 +83,21 @@ nav {
 
 #title {
   text-align: center;
+}
+
+.image-row {
+  display: flex;
+  gap: 20px; /* space between images */
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /* I chose the Blue-Green color family because I feel like it fits the theme of my website really well. 
