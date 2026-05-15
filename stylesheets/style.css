@@ -6,6 +6,7 @@ nav a {
   text-decoration: none;
   padding: 10px 15px;
   display: inline-block;
+  /* This adds a transition effect to the color property, making it change smoothly over 0.3 seconds when the user hovers over the anchor tags */
   transition: color 0.3s;
 }
 /** This selects the nav element and applies the following styles to it: */
@@ -86,12 +87,14 @@ nav {
 }
 
 .image-row {
+  /* This sets the display property of the element to flex, which allows for flexible layout and alignment of its child elements (in this case, images) */
   display: flex;
   gap: 20px; /* space between images */
 }
 
 .image-row {
   display: flex;
+  /* Moves the content to the center*/
   justify-content: center;
   gap: 20px;
 }
